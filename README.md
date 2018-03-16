@@ -47,7 +47,7 @@ render() {
 ## Props
 These are all of the available props (and their default values) for the component.
 
-```json
+```javascript
 {
     tips: [], // The array of string to be rendered
     interval: 10000 // The interval to change to another tip
@@ -55,7 +55,7 @@ These are all of the available props (and their default values) for the componen
 ```
 
 ## Contributing
-- Fork this repo
+- Fork this repo [https://github.com/benjie91/react-tips]
 - Install dependencies with $ yarn
 - Auto-build files as you edit with $ yarn start in root directory
 - Implement your changes to file in the src/ directory
