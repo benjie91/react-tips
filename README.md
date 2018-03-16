@@ -61,6 +61,3 @@ These are all of the available props (and their default values) for the componen
 - Implement your changes to file in the src/ directory
 - See the changes live by going to running $ yarn start in example directory
 - Submit Merge Request for review
-
-## Used by 
-- Moore
