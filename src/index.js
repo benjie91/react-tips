@@ -30,18 +30,25 @@ class ReactTips extends React.PureComponent {
     }
 
     render() {
-        return <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>{this.state.currentShowingTip}</span>
+        const defaultStyle = {
+            fontStyle: 'italic', fontWeight: 'bold'
+        }
+        const finalStyle = Object.assign({}, defaultStyle, this.props.style)
+
+        return <span style={finalStyle}>{this.state.currentShowingTip}</span>
     }
 }
 
 ReactTips.propTypes = {
     tips: PropTypes.arrayOf(PropTypes.string),
-    interval: PropTypes.number
+    interval: PropTypes.number,
+    style: PropTypes.object,
 }
 
 ReactTips.defaultProps = {
     tips: [],
-    interval: 10000
+    interval: 10000,
+    style: {}
 }
 
 export default ReactTips
