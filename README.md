@@ -1,9 +1,11 @@
 # React Tips
 react-tip is a lightweight tips components built for React
 
+Demo Link: https://benjie91.github.io/react-tips/
+
 ## Features
 - Lightweight
-- Fully Customizable (~~styles~~, interval)
+- Fully Customizable (styles, interval)
 
 ## Versions
 - This documentation is for version 1 of react-tips.
